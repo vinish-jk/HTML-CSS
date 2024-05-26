@@ -1,0 +1,309 @@
+:root{
+    --yellow:#FFC54D;
+    --green:#53BF9D;
+    --red:crimson;
+    --white:whitesmoke;
+}
+body,h2{
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.landing{
+   
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   color:orangered;
+   
+
+}
+.uppage{
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+header a{
+    text-decoration: none;
+    color: var(--yellow);
+    min-width: 120px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    padding: 2em;
+    
+}
+#logo{
+    flex:3;
+    font-size: 2.5em;
+    min-width: 260px;
+}
+nav{
+    position: sticky;
+    flex:0.5;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    
+}
+nav a{
+    flex: 1;
+}
+header i ,nav i{
+    margin-right: .5em;
+}
+nav a:hover{
+    color:var(--green);
+}
+.maintext{
+    background-image:url('/media/japan.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    display: flex;
+    min-width: 20px;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: top;
+    margin: 0;
+    padding: 2em;
+    
+    
+    
+}
+.tagline1{
+    color: var(--red);
+    
+    font-size: 2em;
+    margin:0;
+    font-weight: bolder;
+    
+    
+}
+div.tagline1{
+    margin: 0px;
+}
+.tagline2{
+    color: var(--yellow);
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: var(--green);
+    color: var(--white);
+    border: 1px solid var(--green);
+
+}
+
+
+
+
+
+
+
+
+
+
+#menuheading,#locheading{
+    background:linear-gradient(to right,rgb(186, 28, 28),rgb(169, 37, 37));
+    font-size:2.5em;
+    color:var(--red);
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background:linear-gradient(to right,rgb(100, 100, 100),rgb(145, 61, 61));
+    color: var(--white);
+}
+
+.maincourse{
+    grid-row: span 2;
+}
+
+.menu tr{
+    display:flex;
+    justify-content: center;
+    margin-top:.8em;
+    color:var(--white);
+}
+
+.menu th{
+    color:var(--green);
+    font-size: 1.8em;
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+
+.menu td:nth-child(2){
+    justify-self: right;
+}
+
+table{
+    width:100%;
+    padding:1em;
+}
+
+.locations address{
+    color:white;
+}
+
+.locations{
+    display:flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    background:linear-gradient(to right,rgb(100, 100, 100),rgb(53, 52, 52));
+    color: var(--white);
+}
+.locheading{
+    font-size:1.75em;
+    color:var(--red);
+    display: flex;
+    justify-content: center;
+}
+
+.locations div{
+    padding:1em;
+    flex:1;
+}
+
+.locations  h2{
+    color: var(--green);
+    margin-bottom: .8em;
+}
+<!--
+footer{
+    background-color: rgb(55, 55, 55);
+    color:var(--white);
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#copyright{
+    margin:20px;
+}
+
+
+.lowpage ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 15px;
+}
+
+.lowpage ul li .fab{
+    font-size: 5px;
+    line-height: 0px;
+    transition: .3s;
+    color: #8f7a7a;
+}
+
+.lowpage ul li .fab:hover{
+    color: #fff;
+}
+
+.lowpage ul li a{
+    position: relative;
+    display: block;
+    width: .2px;
+    height: 10px;
+    border-radius: 20%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.lowpage{
+    
+    top: 0px;
+    background-color: black;
+}
+footer a{
+    text-decoration: none;
+    color: var(--red);
+    min-width: 30px;
+}
+
+.lowpage ul li a:hover{
+    transform: translate(0, -10%);
+}
+
+.lowpage ul li a:nth-child(1) a:hover{
+    background-color: #3562bc;
+}
+.lowpage ul li a :nth-child(2) a:hover{
+    background-color: #e440c0;
+}
+.lowpage ul li a:nth-child(3) a:hover{
+    background-color: #00ACEE;
+}-->
+
+
+footer{
+    background-color: rgb(55, 55, 55);
+    color:var(--white);
+    padding:.25em 1em;
+}
+
+#copyright{
+    margin-left:20px;
+}
+.lowpage ul{
+    
+    padding:0;
+}
+
+.lowpage ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 15px;
+}
+
+.lowpage ul li .fab{
+    font-size: 25px;
+    line-height: 40px;
+    transition: .3s;
+    color: #000;
+}
+
+.lowpage ul li .fab:hover{
+    color: #fff;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.lowpage ul li a:hover{
+    transform: translate(0, -10%);
+}
+
+.lowpage ul li:nth-child(1) a:hover{
+    background-color: #4267B2;
+}
+.lowpage ul li:nth-child(2) a:hover{
+    background-color: #E4405F;
+}
+.lowpage ul li:nth-child(3) a:hover{
+    background-color: #00ACEE;
+}
+
