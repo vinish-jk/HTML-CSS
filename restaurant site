@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spicy -Hut</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="/media/favicon.ico">
+    <meta name="description" content="">
+</head>
+<body>
+    <div class="landing"> 
+        <div class="uppage">
+        <header>
+            <a href="" id="logo"> <i class="fa-solid fa-bowl-rice"></i>Spicy Hut</a>
+            <nav>
+                <a href="index.html"><i class="fa-solid fa-house-chimney-crack"></i>Home</a>
+                <a href="menu.html"><i class="fa-solid fa-bars"></i>Menu</a>
+                <a href="locations.html"> <i class="fa-solid fa-map-location-dot"></i>Locations</a>
+            </nav>
+        </header>
+        </div>
+    
+    <div class="maintext">
+    <div class="tagline1">
+        Finest Treat for Your Taste Buds
+    </div>
+    <div class="tagline2">
+        Freshest Ingredients Guranteed
+    </div>
+    <div class="callus">
+        Call Us @ +91 12345 67891
+    </div>
+    
+        <button><i class="fa-solid fa-truck-fast"></i> Order Online</button>
+    </div>
 
+        </div>
+    
+      <!-- <footer>
+            <div class="lowpage">
+                <ul>
+           <li> <a href="#" target="blank"><i class="fa-brands fa-youtube"></i></a></li>
+           <li> <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+           <li> <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+           </ul>
+           <div id="copyright">&#169 copyright Spicy Hut</div>
+           <nav>
+            <h3>About Us</h3>
+            <a href=""><i class="fa-solid fa-phone"></i> Contact Us</a>
+           </nav>
+            </div>
+        </footer>  -->
+
+        <footer>
+            <div class="lowpage">
+                <ul>
+                    <li><a href="#" target="blank"><i class="fab fa-facebook"></i></i></a></li>
+                    <li><a href="#" target="blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div id="copyright">&#169 copyright Spicy Hut</div>
+        </footer>
+        
+        
+    
+
+</body>
+</html>
